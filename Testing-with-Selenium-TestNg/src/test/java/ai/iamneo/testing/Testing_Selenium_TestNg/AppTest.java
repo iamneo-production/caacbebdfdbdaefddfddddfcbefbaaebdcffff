@@ -1,18 +1,14 @@
 package ai.iamneo.testing.Testing_Selenium_TestNg;
-
 import org.testng.annotations.Test;
-
-import java.io.IOException;
 import java.net.URL;
 import java.util.List;
-
-import org.openqa.selenium.By;
+import java.io.IOException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeTest;
-//import org.testng.Assert;
+import org.openqa.selenium.By;
 import org.testng.annotations.AfterTest;
 
 public class AppTest {
@@ -45,5 +41,4 @@ public class AppTest {
 	public void afterTest() {
 		driver.quit();
 	}
-	
 }
