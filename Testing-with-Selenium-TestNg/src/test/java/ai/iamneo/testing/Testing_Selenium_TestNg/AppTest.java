@@ -12,7 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeTest;
-import org.testng.Assert;
+//import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
 public class AppTest {
